@@ -18,7 +18,7 @@ unsigned long long int unsigned_longlongint = 800;
 
 int main(void)
 {
-    // Use %..u as a format specifier  --> for signed variables
+    // Use %..u as a format specifier  --> for unsigned variables
 
     printf("\nunsigned_char1 as character = %c",unsigned_char1);
     printf("\nsize of unsigned char = %d",sizeof(unsigned_char1));
